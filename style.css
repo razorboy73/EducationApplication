@@ -40,19 +40,19 @@ section.features h3 {
     font-size: 14px;
 }
 
-section.online-courses, .classroom-training {
+section.online-courses, .classroom-training, .reviews-slider{
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
-.online-courses-text-widget, .classroom-courses-text-widget{
+.online-courses-text-widget, .classroom-courses-text-widget .review-text-widget{
     text-align: center;
 }
-.online-courses-text-widget h2, .classroom-courses-text-widget h2 {
+.online-courses-text-widget h2, .classroom-courses-text-widget h2, .reviews-slider h2  {
     font-size: 1.3em;
 }
 
-.online-courses-text-widget p, .classroom-courses-text-widget p{
+.online-courses-text-widget p, .classroom-courses-text-widget p, .reviews-slider p {
     font-size: 14px;
 }
 
@@ -64,7 +64,7 @@ section.online-courses, .classroom-training {
 .online-course-card .card-text {
     font-size: 14px;
 }
-.card.online-course-card {
+.card.online-course-card, .review-text-widget{
     text-align: center;
     margin-bottom: 25px;
 }
@@ -88,4 +88,30 @@ section.online-courses, .classroom-training {
     font-size: small;
     padding-top: 20px;
     color: black;
+}
+
+.reviews-slider{
+    background-color: gainsboro;
+}
+
+.review-slider-holder .card{
+    text-align: center;
+}
+
+.slider-image{
+    padding-top: 25px;
+}
+
+.review-slider-holder .card-body h6{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.review-slider-holder .card-body .star{
+    color: gold;
+    font-size: 18px;
+}
+
+.review-slider-holder .card-body .card-text{
+    font-size: 14px;
 }
