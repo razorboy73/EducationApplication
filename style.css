@@ -72,3 +72,20 @@ section.online-courses, .classroom-training {
 .classroom-training{
     background-color: whitesmoke;
 }
+
+.sign-up-form-sidebar .card-title{
+    font-size: 1.2em
+
+}
+
+.sign-up-form-sidebar .card-text {
+    font-size: 14px;
+}
+
+
+
+.course-list-item {
+    font-size: small;
+    padding-top: 20px;
+    color: black;
+}
