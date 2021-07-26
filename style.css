@@ -40,7 +40,7 @@ section.features h3 {
     font-size: 14px;
 }
 
-section.online-courses, .classroom-training, .reviews-slider{
+section.online-courses, .classroom-training, .reviews-slider, .page-content{
     padding-top: 35px;
     padding-bottom: 35px;
 }
@@ -69,7 +69,7 @@ section.online-courses, .classroom-training, .reviews-slider{
     margin-bottom: 25px;
 }
 
-.classroom-training{
+.classroom-training, .page-content{
     background-color: whitesmoke;
 }
 
@@ -166,4 +166,8 @@ section.copy{
 
 section.copy p{
     margin: 0px;
+}
+
+.google-map{
+    padding-top: 56px;
 }
